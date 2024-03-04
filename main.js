@@ -4,6 +4,7 @@ var people = document.querySelector(".container-people");
 var container = document.querySelector(".container-msg");
 var result = document.querySelector(".text-result");
 
+
 btnEncript.onclick = encript;
 btnDesencript.onclick = descript;
 
@@ -23,6 +24,7 @@ function recuperarTexto(){
     var cajatexto = document.querySelector(".text-text")
     return cajatexto.value
 }
+
 
 function ocultarAdelante(){
     people.classList.add("ocultar");
@@ -99,3 +101,5 @@ const btnCopiar = document.querySelector(".btn-copy");
     navigator.clipboard.writeText(contenido);
     console.log("hola"); 
 });
+
+

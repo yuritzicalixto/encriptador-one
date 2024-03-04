@@ -153,7 +153,7 @@ textarea:focus {
     top: 700px;
     padding-left: 40px; */
     display: grid;
-    justify-self: flex-end;
+    grid-row: none;
     margin: 16px 16px 16px 16px;
 }
 .btn-copy{
@@ -174,8 +174,17 @@ textarea:focus {
 
 /*RESAULTADO*/
 .container-result{
-    position: absolute;
+    /* position: absolute;
     bottom: 30px;
+    width: 320px;
+    height: 450px;
+    padding: 0;
+    box-sizing: border-box;
+    margin-left: 25px; */
+    display: grid;
+    justify-self: center;
+    /* margin: 0 5px 5px 5px; */
+    bottom: 330px;
     width: 320px;
     height: 450px;
     padding: 0;
@@ -189,6 +198,10 @@ textarea:focus {
 }
 
 .ocultar{
+    display: none;
+}
+
+.oculto{
     display: none;
 }
 
