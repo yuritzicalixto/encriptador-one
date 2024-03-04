@@ -167,9 +167,29 @@ textarea:focus {
     font-family: 'Inter', sans-serif;
     border: 1px solid #0A3871;
     cursor: pointer;
-    position: relative;
+    /* position: relative; */
     top: 100px;
     right: 16px;
+}
+
+/*RESAULTADO*/
+.container-result{
+    position: absolute;
+    bottom: 30px;
+    width: 320px;
+    height: 450px;
+    padding: 0;
+    box-sizing: border-box;
+    margin-left: 25px;
+}
+
+.container-result p{
+    color: #495057;
+    font-size: 25px;
+}
+
+.ocultar{
+    display: none;
 }
 
  @media screen and (max-width:480px){
